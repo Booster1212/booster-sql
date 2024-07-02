@@ -23,9 +23,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TypeScriptSQL = void 0;
+exports.BoosterSQL = void 0;
 const mysql = __importStar(require("mysql"));
-class TypeScriptSQL {
+class BoosterSQL {
     connection;
     // Constructor
     constructor(config) {
@@ -120,4 +120,4 @@ class TypeScriptSQL {
         });
     }
 }
-exports.TypeScriptSQL = TypeScriptSQL;
+exports.BoosterSQL = BoosterSQL;
