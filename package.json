@@ -1,0 +1,21 @@
+{
+  "name": "booster-sql",
+  "version": "1.0.5",
+  "description": "",
+  "main": "dist/database.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm run build"
+  },
+  "typings": "src/database.d.ts",
+  "keywords": [],
+  "author": "holylord1212",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.26",
+    "typescript": "^5.5.3"
+  }
+}
