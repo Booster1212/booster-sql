@@ -1,6 +1,6 @@
 import * as mysql from "mysql";
 
-export class TypeScriptSQL {
+export class BoosterSQL {
   private connection: mysql.Connection;
 
   // Constructor

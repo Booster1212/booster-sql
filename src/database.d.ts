@@ -1,7 +1,7 @@
-declare module "typescript-sql" {
+declare module "booster-sql" {
   import * as mysql from "mysql";
 
-  export class TypeScriptSQL {
+  export class BoosterSQL {
     constructor(config: mysql.ConnectionConfig);
     create(table: string, data: object): Promise<any>;
     createTable(table: string, tableDefinition: string): Promise<any>;
